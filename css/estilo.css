@@ -2,7 +2,7 @@
 * {
     /* Margem = Externa  */
     margin: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 
@@ -14,10 +14,10 @@ body {
 }
 
 /* seletor para os <A> */
-a  {
+a {
     /* Propriedade e VALOR  */
     text-decoration: none;
-color: antiquewhite;
+    color: antiquewhite;
 }
 
 
@@ -25,11 +25,20 @@ color: antiquewhite;
 
 /* HEARDER = Cabeçalho */
 header {
-   /* ROW linha Horizontal  */
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background-color: #ec94ce;
-   /* Largura ou Comprimento */
-   width: 100%;
-}   
+    /* ROW linha Horizontal  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ec94ce;
+    /* Largura ou Comprimento */
+    width: 100%;
+}
+
+/* UL sistema lista topicos */
+.menu {
+    list-style: none;
+    /* lista horizontal */
+    display: flex;
+    /* espaço entre as TAGs*/
+    gap: 1rem; /* um rem */
+}
