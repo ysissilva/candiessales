@@ -40,5 +40,35 @@ header {
     /* lista horizontal */
     display: flex;
     /* espaço entre as TAGs*/
-    gap: 1rem; /* um rem */
+    gap: 1rem;
+    /* um rem */
 }
+
+/* Tag NAV*/
+.menu-desktop {
+    display: none;
+}
+
+/* Daqui pra frente versao mobile */
+
+
+/* ====================== */
+/* Responsivo */
+/* Serve para telas maiores */
+
+/* Telas Maiores que 768px*/
+
+    @media (min-width:768px) {
+        header{
+            /* espaço inteiro */
+            padding: 1rem 6rem;
+            justify-content: ;
+            gap: ;
+        } 
+
+
+        /* NAV */
+        .menu-desktop{
+            display: flex;
+    }
+    }
