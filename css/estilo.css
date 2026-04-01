@@ -49,6 +49,13 @@ header {
     display: none;
 }
 
+/* Logo */
+.logo {
+    width: 9rem;
+}
+
+
+
 /* Daqui pra frente versao mobile */
 
 
@@ -58,17 +65,17 @@ header {
 
 /* Telas Maiores que 768px*/
 
-    @media (min-width:768px) {
-        header{
-            /* espaço inteiro */
-            padding: 1rem 6rem;
-            justify-content: ;
-            gap: ;
-        } 
+@media (min-width:768px) {
+    header {
+        /* espaço inteiro */
+        padding: 1rem 6rem;
+        justify-content: ;
+        gap: ;
+    }
 
 
-        /* NAV */
-        .menu-desktop{
-            display: flex;
+    /* NAV */
+    .menu-desktop {
+        display: flex;
     }
-    }
+}
